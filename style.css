@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Josefin Sans", sans-serif;
+}
+/* Scrool */
+html::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+html::-webkit-scrollbar-thumb{
+    background: crimson;
+    border-radius: 10px;
+}
+html::-webkit-scrollbar{
+    width: 10px;
+}
+/* Navbar */
+#navbar{
+    padding: 0px 9% 0px;
+}
+#logo img{
+    width: 190px;
+    margin-top: 3px;
+    transition: all .4s;
+}
+.nav-item .nav-link{
+    color: #000;
+    font-weight: bolder;
+}
+.nav-item .nav-link:hover{
+    /* color: #E53927; */
+    color: crimson;
+}
+/* Home */
+.home{
+    display: flex;
+    padding: 5px 11% 80px; /* 5px: üstten, 80px:alttan, 11%: sol ve sağdan boşluk */
+    
+}
+.home .img{
+    flex: 1 1 300px;
+    /* flex: 1 1 300px;
+    flex-grow: 1; Ne kadar büyüyeceğini
+    flex-shrink: 1; Ne kadar küçüleceğini
+    flex-basis: 300px; kapsayıcısı başlangıç boyutu*/
+}
+.home .img img{
+    width: 100%;
+}
+.home-content{
+    flex: 1 1 400px;
+}
+.home-content h3{
+    font-size: 40px;
+    font-weight: 700;
+}
+/* Top Section */
+.top-section{
+    padding: 10px 11% 100px;
+}
+.top-section .row .card img{
+    width: 200px;
+}
+.top-section .card-body h1{
+    font-size: 25px;
+}
+/* Menu */
+.menu{
+    padding: 100px 11% 100px;
+}
+/* Order */
+.order{
+    padding: 100px 11% 100px;
+}
+.order textarea{
+    resize: none;
+}
+/* Review */
+.review{
+    padding: 100px 11% 100px;
+}
+.review h5 img{
+    width: 60px;
+    border-radius: 10px;
+}
+/* Contact */
+.contact{
+    padding: 100px 11% 100px;
+}
+.contact textarea{
+    resize: none;
+}
+/* Footer */
+#footer{
+    padding: 15px 11% 15px;
+}
+.f-logo img{
+    width: 250px;
+}
+.f-content i{
+    padding: 10px;
+    color: #000;
+    border-radius:5px;
+    transition: .3s;
+    cursor: pointer;
+}
+.f-content i:hover{
+    background-color: crimson;
+    color: white;
+}
